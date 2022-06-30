@@ -87,3 +87,9 @@ a {
     height: 5rem;
     border-radius: 1.5rem;
 }
+
+.print {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
