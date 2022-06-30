@@ -24,8 +24,18 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+
 .header__title {
     font-size: 4rem;
+}
+
+.header__conteiner-nav a {
+    padding: 1ch;
+    color: #fff;
+    font-weight: bold;
+}
+.header__conteiner-nav a:hover {
+    text-decoration: underline;
 }
 
 .main {
