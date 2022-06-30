@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="esta es una calculadora de propinas para que veas a cuanto ascendera tu cuenta final y si deceas dividir tu cuenta entre los comenzales" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CalculaTips</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">CalculaTips</h1>
+        <nav class="header__conteiner-nav">
+            <a href="#none" class="nav__item">github</a>
+            <a href="#none" class="nav__item">twitter</a>
+        </nav>
+    </header>
+    <main class="main">
+        <form action="" class="case-calculadora">
+            <div class="conteiner-inputs">
+                <label for="bill" class="input-label">
+                    <span class="text-input">total de la cuenta</span>
+                    <input type="number" name="total cuenta" id="bill" placeholder="$200.00">
+                </label>
+                <label for="tip" class="input-label">
+                    <span class="text-input">cuanto porcentaje deseas agregar a la cuenta?</span>
+                    <input list="porcentajes" name="porcentaje de propina" id="tip" placeholder="5%">
+                    <datalist id="porcentajes">
+                        <option value="5%"></option>
+                        <option value="7%"></option>
+                        <option value="10%"></option>
+                        <option value="15%"></option>
+                        <option value="20%"></option>
+                        <option value="25%"></option>
+                        <option value="30%"></option>
+                    </datalist>
+                </label>
+                <label for="peoples" class="input-label">
+                    <span class="text-input">en cuantas personas de dividira la cuenta?</span>
+                    <input type="number" name="" id="peoples" placeholder="2">
+                </label>
+            </div>
+            <button class="case__button">CalcularTip</button>
+        </form>
+    </main>
+</body>
+</html>
